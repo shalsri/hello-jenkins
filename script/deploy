@@ -1,0 +1,16 @@
+#!/bin/sh
+ 
+ 
+ 
+ssh app@159.65.159.4:5000 <<EOF
+ 
+  cd ~/hello-jenkins
+ 
+  git pull
+ 
+  npm install --production
+ 
+  forever restartall
+ 
+  exit
+ 

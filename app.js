@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 
     console.log("inside route")
  
-  res.send('hello world');
+  res.send('hello world of jenkins');
  
 }); 
  
