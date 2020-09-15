@@ -2,7 +2,7 @@
  
  
  
-ssh app@159.65.159.4:5000 <<EOF
+ssh app@159.65.159.4 <<EOF
  
   cd ~/hello-jenkins
  

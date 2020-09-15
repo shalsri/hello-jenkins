@@ -3,11 +3,11 @@ const port = 5000;
  
 var app = express(); 
  
-app.get('/', function (req, res) {
+app.get('/testroute', function (req, res) {
 
     console.log("inside route")
  
-  res.send('hello world of jenkins');
+  res.send('hello world of jenkins again');
  
 }); 
  
