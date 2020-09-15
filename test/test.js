@@ -4,7 +4,7 @@ var app = require('../app.js');
  
  
  
-describe('GET /test', function() {
+describe('GET /', function() {
  
   it('respond with hello world of jenkins from webhook', function(done) {
  
