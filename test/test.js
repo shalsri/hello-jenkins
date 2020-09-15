@@ -4,11 +4,11 @@ var app = require('../app.js');
  
  
  
-describe('GET /', function() {
+describe('GET /test', function() {
  
-  it('respond with hello world of yet again', function(done) {
+  it('respond with hello world of jenkins from webhook', function(done) {
  
-    request(app).get('/').expect('hello world of jenkins yet again', done);
+    request(app).get('/').expect('hello world of jenkins from webhook', done);
  
   });
  

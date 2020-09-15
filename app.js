@@ -3,11 +3,11 @@ const port = 5000;
  
 var app = express(); 
  
-app.get('/', function (req, res) {
+app.get('/test', function (req, res) {
 
     console.log("inside route")
  
-  res.send('hello world of jenkins yet again');
+  res.send('hello world of jenkins from webhook');
  
 }); 
  
