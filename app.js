@@ -3,7 +3,7 @@ const port = 5000;
  
 var app = express(); 
  
-app.get('/', function (req, res) {
+app.get('/test', function (req, res) {
 
     console.log("inside route")
  
