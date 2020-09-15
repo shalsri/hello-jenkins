@@ -4,11 +4,11 @@ var app = require('../app.js');
  
  
  
-describe('GET /', function() {
+describe('GET /testroute', function() {
  
-  it('respond with hello world', function(done) {
+  it('respond with hello world of jenkins', function(done) {
  
-    request(app).get('/').expect('hello world', done);
+    request(app).get('/testroute').expect('hello world of jenkins again', done);
  
   });
  
